@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+}
+
+img.nav-button-logo {
+    width: 64px;
+    margin: 0 20px 0 0;
+}
+
+ul.nav-buttons {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav.nav {
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(251, 247, 227);
+    border-radius: 50px;
+}
+
+li.nav-button a {
+    display: flex;
+    align-items: center;
+}
+
+li.nav-button {
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin: 0px 10px;
+    background-color: rgb(243, 223, 133);
+}
+
+p {
+    margin: 0;
+    color: rgb(93 31 3);
+}
+
+p.big {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.card {
+    width: fit-content;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: auto; */
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+.card-image {
+    background-image: url("Assets/honey.jpg");
+    width: 300px;
+    height: 285px;
+    background-position: center;
+    background-size: cover;
+    /* box-sizing: content-box; */
+    border-radius: 80px 80px 0 0;
+}
+
+.card-descr {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-container {
+    background-color: rgb(251, 247, 227);
+    border-radius: 80px;
+}
+
+.button {
+    background-color: rgb(243, 223, 133);
+    padding: 10px 40px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.card-cart-button {
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+
+p.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+p.subtitle {
+    text-align: center;
+}
+
+p.price {
+    font-size: 1.1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-container {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(251, 247, 227);
+    border-radius: 10px;
+}
+
+.article-text {
+    padding: 20px;
+    width: 50%;
+}
+
+.article-image {
+    width: 50%;
+}
+
+.article-image img {
+    width: 100%;
+}
+
+article {
+    padding: 20px;
+    /* width: 50%; */
+}
+
+.products {
+    display: flex;
+}
+
+.blog {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .article-container {
+        flex-direction: column-reverse;
+    }
+
+    .article-text {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .article-image {
+        width: 100%;
+    }
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>W3-P2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <!--ES.1: Inserisci un tag h1 con il nome del tuo negozio-->
+    <h1 id="title">Negozio</h1>
+    <!--ES.2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio-->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Prodotti</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--ES.3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo
+                ES.4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente
+                ES.6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire nessuna "vera" funzionalità di post/salvataggio!)-->
+            <tr>
+                <td>
+                    <a class="prod-link"
+                        href="https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1MTcxMjIwNDEzNTkwMTM1OjE2Njg3MDc5NzI6c3BfYXRmOjIwMDA2MDIxODU0ODYzMTo6MDo6&url=%2FSerami-White-Coffee-Ceramic-Construction%2Fdp%2FB07D6XNJ6X%2Fref%3Dsr_1_1_sspa%3Fcrid%3D1UEIOLCJC8D2T%26keywords%3Dmugs%26qid%3D1668707972%26s%3Dkitchen-intl-ship%26sprefix%3Dgamugs%252Ckitchen-intl-ship%252C282%26sr%3D1-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61lo-VEppQL._AC_UL320_.jpg"
+                            alt="Serami Classic Cream White Diner Mugs for Coffee with 11oz Capacity, Set of 4">
+                    </a>
+                </td>
+                <td>
+                    <h2>
+                        <a class="prod-link"
+                            href="https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1MTcxMjIwNDEzNTkwMTM1OjE2Njg3MDc5NzI6c3BfYXRmOjIwMDA2MDIxODU0ODYzMTo6MDo6&url=%2FSerami-White-Coffee-Ceramic-Construction%2Fdp%2FB07D6XNJ6X%2Fref%3Dsr_1_1_sspa%3Fcrid%3D1UEIOLCJC8D2T%26keywords%3Dmugs%26qid%3D1668707972%26s%3Dkitchen-intl-ship%26sprefix%3Dgamugs%252Ckitchen-intl-ship%252C282%26sr%3D1-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">Serami
+                            Classic Cream White Diner Mugs for Coffee with 11oz Capacity, Set of 4</a>
+                    </h2>
+                </td>
+                <td>Serami Classic Cream White Diner Mugs for Coffee with 11oz Capacity, Set of 4</td>
+                <td>
+                    <span class="prod-price">
+                        <span class="prod-price-symbol">$</span>
+                        <span class="prod-price-num">29</span>
+                        <span class="prod-price-cents">99</span>
+                    </span>
+                    <span class="prod-price-mini">($7.50 / Count)</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="prod-review" colspan="4">
+                    <h3>Recensione</h3>
+                    <textarea class="prod-review-textarea" placeholder="recensione"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="prod-link"
+                        href="https://www.amazon.com/YHOSSEUN-Porcelain-Stackable-Demitasse-Macchiato/dp/B09WZ315NY/ref=sr_1_3?crid=1UEIOLCJC8D2T&keywords=mugs&qid=1668877563&s=kitchen-intl-ship&sprefix=gamugs%2Ckitchen-intl-ship%2C282&sr=1-3">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/71RAOwDq1SL._AC_UL320_.jpg"
+                            alt="YHOSSEUN Porcelain Stackable Coffee Mug Set With Rack, Demitasse Cups with Espresso Spoons, 11 Oz For Coffee Drinks, Latt...">
+                    </a>
+                </td>
+                <td>
+                    <h2>
+                        <a class="prod-link"
+                            href="https://www.amazon.com/YHOSSEUN-Porcelain-Stackable-Demitasse-Macchiato/dp/B09WZ315NY/ref=sr_1_3?crid=1UEIOLCJC8D2T&keywords=mugs&qid=1668877563&s=kitchen-intl-ship&sprefix=gamugs%2Ckitchen-intl-ship%2C282&sr=1-3">YHOSSEUN
+                            Porcelain Stackable Coffee Mug Set With Rack, Demitasse Cups with Espresso Spoons, 11 Oz For
+                            Coffee Drinks, Latte, Macchiato, Cafe Mocha Set of 4 ,Black</a>
+                    </h2>
+                </td>
+                <td>YHOSSEUN Porcelain Stackable Coffee Mug Set With Rack, Demitasse Cups with Espresso Spoons, 11 Oz
+                    For Coffee Drinks, Latte, Macchiato, Cafe Mocha Set of 4 ,Black</td>
+                <td>
+                    <span class="prod-price">
+                        <span class="prod-price-symbol">$</span>
+                        <span class="prod-price-num">25</span>
+                        <span class="prod-price-cents">99</span>
+                    </span>
+                    <span class="prod-price-mini">($6.50 / Count)</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="prod-review" colspan="4">
+                    <h3>Recensione</h3>
+                    <textarea class="prod-review-textarea" placeholder="recensione"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="prod-link"
+                        href="https://www.amazon.com/Mora-Ceramic-Large-Latte-16oz/dp/B09H9ZPGXP/ref=sr_1_2?crid=1UEIOLCJC8D2T&keywords=mugs&qid=1668877563&s=kitchen-intl-ship&sprefix=gamugs%2Ckitchen-intl-ship%2C282&sr=1-2">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61vbV+u+89L._AC_UL320_.jpg"
+                            alt="Mora Ceramic Large Latte Mug Set of 4, 16oz - Microwavable, Porcelain Coffee Cups With Big Handle - Modern, Boho, Unique S...">
+                    </a>
+                </td>
+                <td>
+                    <h2>
+                        <a class="prod-link"
+                            href="https://www.amazon.com/Mora-Ceramic-Large-Latte-16oz/dp/B09H9ZPGXP/ref=sr_1_2?crid=1UEIOLCJC8D2T&keywords=mugs&qid=1668877563&s=kitchen-intl-ship&sprefix=gamugs%2Ckitchen-intl-ship%2C282&sr=1-2">Mora
+                            Ceramic Large Latte Mug Set of 4, 16oz - Microwavable, Porcelain Coffee Cups With Big Handle
+                            - Modern, Boho, Unique Style For Any Kitchen. Microwave Safe Stoneware - Assorted
+                            Neutrals</a>
+                    </h2>
+                </td>
+                <td>Mora Ceramic Large Latte Mug Set of 4, 16oz - Microwavable, Porcelain Coffee Cups With Big Handle -
+                    Modern, Boho, Unique Style For Any Kitchen. Microwave Safe Stoneware - Assorted Neutrals</td>
+                <td>
+                    <span class="prod-price">
+                        <span class="prod-price-symbol">$</span>
+                        <span class="prod-price-num">32</span>
+                        <span class="prod-price-cents">99</span>
+                    </span>
+                    <span class="prod-price-mini">($8.25 / Count)</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="prod-review" colspan="4">
+                    <h3>Recensione</h3>
+                    <textarea class="prod-review-textarea" placeholder="recensione"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="prod-link"
+                        href="https://www.amazon.com/Sweese-Coffee-Mug-Set-Assorted/dp/B09G6WGXJV/ref=sr_1_5?crid=1UEIOLCJC8D2T&keywords=mugs&qid=1668883958&s=kitchen-intl-ship&sprefix=gamugs%2Ckitchen-intl-ship%2C282&sr=1-5">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/710lvvsHVnL._AC_UL320_.jpg"
+                            alt="Amazingware Coffee Mug Set - 16 Ounce for Coffee, Tea, Cocoa, Set of 6, Hot Assorted Colors">
+                    </a>
+                </td>
+                <td>
+                    <h2>
+                        <a class="prod-link"
+                            href="https://www.amazon.com/Sweese-Coffee-Mug-Set-Assorted/dp/B09G6WGXJV/ref=sr_1_5?crid=1UEIOLCJC8D2T&keywords=mugs&qid=1668883958&s=kitchen-intl-ship&sprefix=gamugs%2Ckitchen-intl-ship%2C282&sr=1-5">Amazingware Coffee Mug Set - 16 Ounce for Coffee, Tea, Cocoa, Set of 6, Hot Assorted Colors</a>
+                    </h2>
+                </td>
+                <td>Amazingware Coffee Mug Set - 16 Ounce for Coffee, Tea, Cocoa, Set of 6, Hot Assorted Colors</td>
+                <td>
+                    <span class="prod-price">
+                        <span class="prod-price-symbol">$</span>
+                        <span class="prod-price-num">32</span>
+                        <span class="prod-price-cents">99</span>
+                    </span>
+                    <span class="prod-price-mini">($5.50 / Count)</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="prod-review" colspan="4">
+                    <h3>Recensione</h3>
+                    <textarea class="prod-review-textarea" placeholder="recensione"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="prod-link"
+                        href="https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxMTU3MjU5Nzk1NDI2NzExOjE2Njg4ODM5NTg6c3BfYXRmOjIwMDAzNTA3MDczMDE5ODo6MDo6&url=%2FCeramic-Restaurant-Large-sized-Cappuccino-Colorful%2Fdp%2FB082F3QF41%2Fref%3Dsr_1_1_sspa%3Fcrid%3D1UEIOLCJC8D2T%26keywords%3Dmugs%26qid%3D1668883958%26s%3Dkitchen-intl-ship%26sprefix%3Dgamugs%252Ckitchen-intl-ship%252C282%26sr%3D1-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1%26smid%3DA9GPRO0E8SZTM">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61tG5TejTBL._AC_UL320_.jpg"
+                            alt="Set of 6 Coffee Mug Sets, 16 Ounce Ceramic Coffee Mugs Restaurant Coffee Mug, Large-sized Black Coffee Mugs...">
+                    </a>
+                </td>
+                <td>
+                    <h2>
+                        <a class="prod-link"
+                            href="https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxMTU3MjU5Nzk1NDI2NzExOjE2Njg4ODM5NTg6c3BfYXRmOjIwMDAzNTA3MDczMDE5ODo6MDo6&url=%2FCeramic-Restaurant-Large-sized-Cappuccino-Colorful%2Fdp%2FB082F3QF41%2Fref%3Dsr_1_1_sspa%3Fcrid%3D1UEIOLCJC8D2T%26keywords%3Dmugs%26qid%3D1668883958%26s%3Dkitchen-intl-ship%26sprefix%3Dgamugs%252Ckitchen-intl-ship%252C282%26sr%3D1-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1%26smid%3DA9GPRO0E8SZTM">Set
+                            of 6 Coffee Mug Sets, 16 Ounce Ceramic Coffee Mugs Restaurant Coffee Mug, Large-sized Black
+                            Coffee Mugs Set Perfect for Coffee, Cappuccino, Tea, Cocoa, Cereal, Black outside and
+                            Colorful inside</a>
+                    </h2>
+                </td>
+                <td>Set of 6 Coffee Mug Sets, 16 Ounce Ceramic Coffee Mugs Restaurant Coffee Mug, Large-sized Black Coffee Mugs Set Perfect for Coffee, Cappuccino, Tea, Cocoa, Cereal, Black outside and Colorful inside</td>
+                <td>
+                    <span class="prod-price">
+                        <span class="prod-price-symbol">$</span>
+                        <span class="prod-price-num">27</span>
+                        <span class="prod-price-cents">91</span>
+                    </span>
+                    <span class="prod-price-mini">($4.65 / Count)</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="prod-review" colspan="4">
+                    <h3>Recensione</h3>
+                    <textarea class="prod-review-textarea" placeholder="recensione"></textarea>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="buttons">
+        <button onclick="changeTitle()">Change title</button>
+        <button onclick="changeBackground()">Change background</button>
+        <button onclick="changeAddress()">Change address</button>
+        <button onclick="addCSSClass()">Add CSS class</button>
+        <button onclick="hideImg()">Hide images</button>
+        <button onclick="showImg()">Show images</button>
+        <button onclick="changePriceColor()">Change prices color</button>
+    </div>
+
+    <!--ES.5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio-->
+    <footer>
+        <h3 class="footer">
+            <span id="footer-negozio">Negozio</span>
+            <span id="footer-indirizzo">Via pinco pallino n° 1 Pallino(PA)</span>
+        </h3>
+    </footer>
+</body>
+
+</html>

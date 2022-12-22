@@ -1,0 +1,61 @@
+/* 11) Assegna una larghezza massima al tag body e centralo nella pagina */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 12) Centra ogni tag h1 */
+h1 {
+    text-align: center;
+}
+
+/* 13) Cambia il colore di ogni link nella pagina */
+a {
+    color: chocolate;
+}
+
+/* 14) Crea una classe e assegnale un bordo */
+.bordo {
+    border: 1px;
+}
+
+/* 15) Fai in modo che la i bordi della tabella che hai creato siano arrotondati */
+table {
+    border: 2px solid #333;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+/* 16) Aggiungi un margine ad ogni paragrafo */
+p {
+    margin: 1px;
+}
+
+/* 17) Crea una classe che una volta assegnata cambi la dimensione e il peso del font */
+.font {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* 18) Crea una classe per nascondere un elemento */
+.hide {
+    display: none;
+    /* visibility: hidden;    nasconde l'elemento ma occupa ancora "spazio" */
+}
+
+/* 19) Aggiungi un bordo verde a ogni <td> */
+td {
+    border: 2px solid green;
+    text-align: center;
+}
+
+/* 20) Aggiungi un bordo puntato rosso a ogni <tr> (nota: <tr> non accetta una proprietà "border") */
+
+
+
+.test {
+    color: green;
+    font-size: 26px;
+    padding: 10px;
+}

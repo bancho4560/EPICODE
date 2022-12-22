@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+  <!-- 1) Assegna un titolo per questa pagina -->
+  <title>50ex</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='50ex.css'>
+</head>
+
+<body cz-shortcut-listen="true">
+  <!-- 2) Crea un tag h1 con il contenuto che preferisci -->
+  <h1 onclick="removeTitleLastLetter()">Animals</h1>
+
+  <!-- 3) Crea una lista ordinata con alcuni elementi al suo interno -->
+  <ol>
+    <li>Primo elemento</li>
+    <li>Secondo elemento</li>
+    <li>Terzo elemento</li>
+  </ol>
+
+  <!-- 4) Crea una tabella con 4 righe e 5 colonne -->
+  <table>
+    <tbody id="table-body">
+      <tr>
+        <td>A1</td>
+        <!-- 5) Aggiungi un'immagine a ogni seconda cella di ogni riga -->
+        <!-- 6) Aggiungi un tag <a> ad ogni immagine -->
+        <td>
+          <a href="https://it.wikipedia.org/wiki/Italia">
+            Italia
+            <img alt="bandiera IT" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f1ee-1f1f9.svg" width="24px"
+              height="24px"></a>
+        </td>
+        <td>A3</td>
+        <!-- 7) Unisci insieme 2 celle della tabella -->
+        <td colspan="2">A4A5</td>
+      </tr>
+      <tr>
+        <td>B1</td>
+        <!-- 5) Aggiungi un'immagine a ogni seconda cella di ogni riga -->
+        <!-- 6) Aggiungi un tag <a> ad ogni immagine -->
+        <td>
+          <a href="https://it.wikipedia.org/wiki/Italia">
+            Italia
+            <img alt="bandiera IT" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f1ee-1f1f9.svg" width="24px"
+              height="24px"></a>
+        </td>
+        <td>B3</td>
+        <td>B4</td>
+        <td>B5</td>
+      </tr>
+      <tr>
+        <td>C1</td>
+        <!-- 5) Aggiungi un'immagine a ogni seconda cella di ogni riga -->
+        <!-- 6) Aggiungi un tag <a> ad ogni immagine -->
+        <td>
+          <a href="https://it.wikipedia.org/wiki/Italia">
+            Italia
+            <img alt="bandiera IT" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f1ee-1f1f9.svg" width="24px"
+              height="24px"></a>
+        </td>
+        <td>C3</td>
+        <td>C4</td>
+        <td>C5</td>
+      </tr>
+      <tr>
+        <td>D1</td>
+        <!-- 5) Aggiungi un'immagine a ogni seconda cella di ogni riga -->
+        <!-- 6) Aggiungi un tag <a> ad ogni immagine -->
+        <td>
+          <a href="https://it.wikipedia.org/wiki/Italia">
+            Italia
+            <img alt="bandiera IT" src="https://s.w.org/images/core/emoji/14.0.0/svg/1f1ee-1f1f9.svg" width="24px"
+              height="24px"></a>
+        </td>
+        <td>D3</td>
+        <td>D4</td>
+        <td>D5</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- 8) Dividi la pagina inserendo una riga orizzontale -->
+  <hr />
+  <!-- 9) Crea un elemento contenitore con al suo interno un paragrafo e una lista non ordinata -->
+  <div id="container">
+    <p>Paragrafo</p>
+    <ul id="unordered-list">
+      <li>elemento</li>
+      <li>elemento</li>
+      <li>elemento</li>
+    </ul>
+  </div>
+  <div id="buttons">
+    <button onclick="hideImgs()">nasconde ogni immagine nella pagina</button>
+    <button onclick="showHideTable()">nasconde o mostra la tabella nella pagina</button>
+    <button onclick="removeLastTable()">rimuove l'ultima tabella presente nella pagina</button>
+    <button onclick="deleteRandomTd()">elimina un td a caso nella tabella</button>
+  </div>
+  <!-- 10) Crea un footer contenente alcune informazioni sul creatore della pagina -->
+  <footer>
+    Marco
+  </footer>
+
+  <script src='50ex.js'></script>
+</body>
+
+</html>

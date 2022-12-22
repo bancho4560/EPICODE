@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-shadow: 2px 2px 9px #0000001f;
+    padding-left: 0px;
+    /* padding: 1rem 3rem; */
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo>img {
+    max-height: 35px;
+    width: 100%;
+    display: block;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+main {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+a.profile {
+    background: orangered;
+    border-radius: 50%;
+    color: white;
+    /* height: 30px; */
+    /* width: 30px; */
+    /* text-align: center; */
+    padding: 5px 10px;
+}
+
+a.resume {
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #fff;
+    color: #191919;
+    transition: all ease 0.7s;
+}
+
+a.resume:hover {
+    background: #191919;
+    color: #f0f0f0;
+}
+
+.contents {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+section#left {
+    width: 70%;
+    border-right: 1px solid #d2d2d2;
+    padding: 3rem 2rem 2rem 3.5rem;
+}
+
+.tab.active {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.tab {
+    padding: 5px 8px;
+}
+
+section#right {
+    width: 30%;
+    padding: 0px 32px;
+}
+
+.card {
+    display: flex;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+}
+
+img.card-author-img {
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+}
+
+p.data {
+    display: flex;
+    color: rgba(117, 117, 117, 1);
+}
+
+
+span.p {
+    margin: 0px 4px;
+}
+
+.card-content2 {
+    display: flex;
+    margin-top: 12px;
+}
+
+.content {
+    display: flex;
+}
+
+.card-title {
+    padding-bottom: 8px;
+}
+
+.card-footer {
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer-right {
+    display: flex;
+}
+
+.tag {
+    padding: 2px 8px;
+    border-radius: 100px;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+button.footer-button {
+    fill: rgba(117, 117, 117, 1);
+    padding: 0;
+    background: transparent;
+    margin: 0;
+    border: 0;
+}
+
+.footer-text {
+    color: rgba(117, 117, 117, 1);
+}
+
+h2.card-title-h2 {
+    margin: 0;
+}
+
+p.card-text-p {
+    margin: 0;
+}
+
+.card-content {
+    display: flex;
+}
+
+.card-img {
+    margin-left: 60px;
+}
+
+p.p {
+    padding: 0px 2px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.card-block {
+    width: 100%;
+}
+
+.card-article {
+    width: 100%;
+}
+
+.twitter-thing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px 30px 30px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+svg.medium-logo {
+    height: 25px;
+}
+
+svg.twitter-logo {
+    fill: rgb(56, 161, 243);
+    margin-right: 8px;
+}
+
+.discover-medium {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+a.connect-twitter-link {
+    border-color: rgb(168, 168, 168);
+    background: rgb(255, 255, 255);
+    padding: 6px 14px 6px 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.connect-twitter-div {
+    display: flex;
+    align-items: center;
+}
+
+.recommended-topics {
+    margin-top: 40px;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+a.topic-link {
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.topic-text {
+    padding: 8px 16px;
+    border-radius: 100px;
+    background-color: rgba(242, 242, 242, 1);
+    color: black;
+}
+
+.person-flex {
+    display: flex;
+    padding-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.person-content {
+    display: flex;
+    margin-right: 8px;
+    flex-direction: row;
+}
+
+img.person-img {
+    border-radius: 50%;
+}
+
+.person-info {
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+p.person-desc-p {
+    overflow: hidden;
+    max-height: 40px;
+    margin: 0;
+}
+
+.person {height: 100%;width: 100%;}
+
+h2.person-name {
+    margin: 0px;
+}
+
+button.follow-button {
+    border-color: rgb(117, 117, 117);
+    border-width: 1px;
+    border-radius: 3em;
+    padding: 6px 12px 6px;
+    background: 0px center;
+}
+
+.bottom {
+    display: flex;
+    padding: 24px 0px;
+    flex-wrap: wrap;
+}
+
+.bottom-link {
+    margin-right: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.bottom-link-text {
+    font-size: 12px;
+    margin: 0px;
+}
