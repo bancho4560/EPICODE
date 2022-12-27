@@ -3,3 +3,9 @@
     user-select: none;
     text-anchor: middle;
 }
+
+@media (max-width: 992px) {
+    #offerta-giorno {
+        display: none;
+    }
+}
